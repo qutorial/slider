@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Security Rocks documentation build configuration file, created by
+# Starter documentation build configuration file, created by
 # sphinx-quickstart on Sat Jul 29 11:56:56 2017.
 #
 # This file is execfile()d with the current directory set to its
@@ -126,7 +126,7 @@ html_theme = 'alabaster'
 
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
-#html_title = u'Security Rocks v2017.07.29'
+#html_title = u'Starter v2017.07.29'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -208,7 +208,7 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'SecurityRocksdoc'
+htmlhelp_basename = 'Starterdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -230,7 +230,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'SecurityRocks.tex', u'Security Rocks Documentation',
+    (master_doc, 'Starter.tex', u'Starter Documentation',
      u'Zaur Molotnikov', 'manual'),
 ]
 
@@ -260,7 +260,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'securityrocks', u'Security Rocks Documentation',
+    (master_doc, 'starter', u'Starter Documentation',
      [author], 1)
 ]
 
@@ -274,8 +274,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'SecurityRocks', u'Security Rocks Documentation',
-     author, 'SecurityRocks', 'One line description of project.',
+    (master_doc, 'Starter', u'Starter Documentation',
+     author, 'Starter', 'One line description of project.',
      'Miscellaneous'),
 ]
 
@@ -298,7 +298,7 @@ extensions += [
     'hieroglyph',
 ]
 
-slide_title = 'Security Rocks'
+slide_title = 'Starter'
 slide_theme = 'slides2'
 slide_levels = 2
 #slide_theme_options = {'custom_css':'custom.css'}

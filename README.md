@@ -3,20 +3,30 @@
 This project helps you start immediately with Sphinx and 
 hieroglyph by installing it within a virtual env in Python.
 
+Slider takes care of dependencies and installation.
+
 ## Installing
 
 Prerequisites: `sudo apt-get install python2 virtualenv pip git`.
 
-Clone this project.
+Clone this project:
+```git clone https://github.com/qutorial/slider.git```
 
-Run `. install.sh`.
+Install venv and requirements: 
+```
+cd slider
+. install.sh
+```
+
 
 Next to get first slides done, go to starter and run make:
-```cd starter
+
+```
 make clean slides show
 ```
 
-Run `. activate.sh` when you come back.
+
+Run `. activate.sh` when you come back to be in the venv.
 
 
 ## Attributions

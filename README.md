@@ -41,6 +41,28 @@ Use `deactivate` to quit the venv.
 Run `. activate.sh` when you come back to be in the venv and
 make slides.
 
+## Generating slides
+
+```
+cd slider
+. activate.sh
+cd starter
+make clean slides show # skip show, if it complains
+```
+
+## Generating PDFs, etc,
+
+As this is all based on Sphinx you can also build a multitude
+of other documents. Check the Makefile for it in the starter.
+
+Example, generating PDF with latex:
+```
+cd slider
+. activate.sh
+cd starter
+make latexpdf
+evince _build/latex/Starter.pdf
+```
 
 ## Attributions
 

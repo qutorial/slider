@@ -7,7 +7,10 @@ Slider takes care of dependencies and installation.
 
 ## Installing
 
-Prerequisites: `sudo apt-get install python2 virtualenv pip git`.
+Prerequisites: 
+```
+sudo apt-get install python2 virtualenv pip git
+```
 
 Clone this project:
 ```git clone https://github.com/qutorial/slider.git```
@@ -22,11 +25,21 @@ cd slider
 Next to get first slides done, go to starter and run make:
 
 ```
-make clean slides show
+cd starter
+make clean slides
 ```
 
+View the compiled slides, they are in `_build/slides/index.html`.
+On Ubuntu you could run:
+```
+make show
+```
+ - to open the slides quickly.
 
-Run `. activate.sh` when you come back to be in the venv.
+Use `deactivate` to quit the venv.
+
+Run `. activate.sh` when you come back to be in the venv and
+make slides.
 
 
 ## Attributions

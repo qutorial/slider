@@ -1,9 +1,11 @@
 # Slider - bootstrapping sphinx and hieroglyph
 
-This project helps you start inmmediately with Sphinx and 
-hieroglyph.
+This project helps you start immediately with Sphinx and 
+hieroglyph by installing it within a virtual env in Python.
 
 ## Installing
+
+Prerequisites: `sudo apt-get install python2 virtualenv pip git`.
 
 Clone this project.
 

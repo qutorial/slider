@@ -94,16 +94,23 @@ Code Example
 Code Example with Highlight
 ---------------------------
 
-  .. raw:: html
-   
    Press 'h' to see the important part of this code.
   
-   <pre class="prettyprint" data-lang="javascript">
-    function helloWorld(world) {
-      for (var i = 42; --i >= 0;) {
-        <b>alert('Hello ' + String(world));</b>
-      }
-    }
+
+  .. raw:: html
+   
+   <pre class="prettyprint" data-lang="ruby">
+     def update
+       respond_to do |format|
+         if @reaction.update(reaction_params)
+           format.html { redirect_to @reaction, notice: 'Reaction was successfully updated.' }
+           <b>format.json { render :show, status: :ok, location: @reaction }</b>
+         else
+           format.html { render :edit }
+           format.json { render json: @reaction.errors, status: :unprocessable_entity }
+         end
+       end
+     end
    </pre>
 
 Displaying Features

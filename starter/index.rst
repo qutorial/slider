@@ -1,8 +1,3 @@
-.. slideconf::
-   :autoslides: False
-
-.. _getting-started:
-
 =========================================
 Slider :: bootstrap Sphinx and Hieroglyph
 =========================================
@@ -12,7 +7,6 @@ Slider :: bootstrap Sphinx and Hieroglyph
 
 About
 =====
-.. slide:: About
 
   This tool installs you Hieroglyph and Sphinx in a Python 
   virtual env and provides you with a starter project.
@@ -33,9 +27,6 @@ About
 
 Authoring Slides
 ================
-
-.. slide:: Authoring Slides
-   :level: 2
 
    * First and second level headings become slides
    * Otherwise, just normal `ReStructured Text`_.
@@ -58,9 +49,6 @@ Authoring Slides
 Incremental slides
 ------------------
 
-.. slide:: Incremental Slides
-   :level: 2
-
    .. rst-class:: build
 
    - Adding the ``build`` class to a container
@@ -77,10 +65,9 @@ Incremental slides
 Displaying Images
 -----------------
 
-.. slide:: Displaying Images
-   :level: 2
-
-   .. image:: /_static/slide_table.png
+   .. image:: /_static/flower.jpg
+      :width: 40%
+      :align: center
 
    * Images and static assets should go in the ``_static`` directory in
      your project
@@ -90,10 +77,6 @@ Displaying Images
 Quotes
 ------
 
-.. slide:: Quotes
-   :level: 2
-
-
      Quote text from RST
 
      -- attribution information
@@ -102,9 +85,6 @@ Quotes
 Code Example
 ------------
 
-.. slide:: Code Example
-  :level: 2
-  
   .. code-block:: javascript
   
     function helloWorld(world) {
@@ -115,9 +95,6 @@ Code Example
 
 Displaying Features
 -------------------
-
-.. slide:: Displaying Features
-  :level: 2
   
   * Press 'w' to switch wide screen
   * Press 'f' to toggle full screen
@@ -127,7 +104,6 @@ Displaying Features
 
 Manual On All Features
 ----------------------
+  
   Is here: 
-  https://github.com/nyergler/hieroglyph/blob/master/docs/getting-started.rst
-
-
+   https://github.com/nyergler/hieroglyph/blob/master/docs/getting-started.rst

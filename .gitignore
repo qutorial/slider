@@ -3,4 +3,7 @@ env2/*
 hieroglyph
 _build
 _build/*
+*.bkp
+*.old
+*.swp
 

@@ -2,9 +2,6 @@
 Slider :: bootstrap Sphinx and Hieroglyph
 =========================================
 
-.. slide:: Slider - HTML5 slides from RST
-   :level: 1
-
 About
 =====
 
@@ -68,6 +65,7 @@ Displaying Images
    .. image:: /_static/flower.jpg
       :width: 40%
       :align: center
+
 
    * Images and static assets should go in the ``_static`` directory in
      your project

@@ -304,13 +304,16 @@ slide_levels = 3
 # Place custom static assets in the _static directory and uncomment
 # the following lines to include them
 
+# This collides now with html documentation title, sorry.
 html_title = 'Sample Presentation'
 
 slide_theme_options = {
      'presenters': [
         {
             'name': 'The Author',
-            'twitter': '@my twitter',
+            'company': 'Great Co', #this field and fields below are optional
+            'twitter': 'you@',
+            'gplus': 'id/12332112',
             'www': 'https://yoursite.com/',
             'github': 'http://github.com/yourgithub/'
         },

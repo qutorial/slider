@@ -1,1 +1,1 @@
-git clone https://github.com/nyergler/hieroglyph.git
+git clone https://github.com/qutorial/hieroglyph.git

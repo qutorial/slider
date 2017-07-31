@@ -93,7 +93,20 @@ Slides with Code
 
 Code Example
 ------------
+  
+  At first with the code-block\:::
 
+      .. code-block:: javascript
+      
+        function helloWorld(world) {
+          for (var i = 42; --i >= 0;) {
+            alert('Hello ' + String(world));
+          }
+        }
+
+  
+  Turns into:
+  
   .. code-block:: javascript
   
     function helloWorld(world) {
@@ -105,9 +118,17 @@ Code Example
 
 Code Example with Highlight
 ---------------------------
-
-  Press 'h' to see the important part of this code.
   
+  Here with raw\:\:html::
+    
+        .. raw:: html
+          <pre class="prettyprint" data-lang="ruby">
+            def update
+              ...
+          </pre>    
+  
+ 
+  Turns into (try pressing 'h' to highlight):   
 
   .. raw:: html
    
@@ -117,9 +138,6 @@ Code Example with Highlight
          if @reaction.update(reaction_params)
            format.html { redirect_to @reaction, notice: 'Reaction was successfully updated.' }
            <b>format.json { render :show, status: :ok, location: @reaction }</b>
-         else
-           format.html { render :edit }
-           format.json { render json: @reaction.errors, status: :unprocessable_entity }
          end
        end
      end

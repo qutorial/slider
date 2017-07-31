@@ -80,6 +80,17 @@ Quotes
      -- attribution information
 
 
+Slides with Code
+================
+
+  There are two ways to provide slides with code.
+  
+  One is with the code block feature of rest.
+  
+  Another one is with raw html inclusions. Highlighting 
+  is possible then.
+  
+
 Code Example
 ------------
 
@@ -91,10 +102,11 @@ Code Example
       }
     }
 
+
 Code Example with Highlight
 ---------------------------
 
-   Press 'h' to see the important part of this code.
+  Press 'h' to see the important part of this code.
   
 
   .. raw:: html

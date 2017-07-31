@@ -298,15 +298,23 @@ extensions += [
     'hieroglyph',
 ]
 
-slide_title = 'Sample Presentation'
-title = 'Sample Presentation'
 slide_theme = 'slides2'
 slide_levels = 3
 
 # Place custom static assets in the _static directory and uncomment
 # the following lines to include them
 
+html_title = 'Sample Presentation'
+
 slide_theme_options = {
+     'presenters': [
+        {
+            'name': 'The Author',
+            'twitter': '@my twitter',
+            'www': 'https://yoursite.com/',
+            'github': 'http://github.com/yourgithub/'
+        },
+      ],
      'custom_css': 'custom.css',
      'custom_js': 'custom.js',
  }

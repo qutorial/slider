@@ -91,6 +91,21 @@ Code Example
       }
     }
 
+Code Example with Highlight
+---------------------------
+
+  .. raw:: html
+   
+   Press 'h' to see the important part of this code.
+  
+   <pre class="prettyprint" data-lang="javascript">
+    function helloWorld(world) {
+      for (var i = 42; --i >= 0;) {
+        <b>alert('Hello ' + String(world));</b>
+      }
+    }
+   </pre>
+
 Displaying Features
 -------------------
   
